@@ -12,7 +12,7 @@ app.use((req, res, next) => {
 });
 
 app.get('/', (req, res) => {
-    res.send({name: 'test'});
+    res.send('Home page');
 });
 
 app.get('/about', (req, res) => {
